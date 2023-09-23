@@ -86,8 +86,8 @@
                 carrega.innerHTML = '<h1> Arquivo selecionado: <span>' + input.files[0].name + '</span></h1>';
                 escolha.innerHTML = `
                  <select class="form-select" id="opcao" name="opcao">
-                  <option value="possuemSite">Que possuem site</option>
-                  <option value="nãoPossuemSite">Que não possuem site</option>
+                  <option value="possuemSite">Possuem site</option>
+                  <option value="nãoPossuemSite">Não possuem site</option>
                  </select>
                 `;
                 procurar.innerHTML = '<input type="submit" value="Procurar">';
